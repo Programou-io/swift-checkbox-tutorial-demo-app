@@ -9,64 +9,25 @@
 /* Begin PBXBuildFile section */
 		52590C482C19108C00D416F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52590C472C19108C00D416F6 /* AppDelegate.swift */; };
 		52590C4A2C19108C00D416F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52590C492C19108C00D416F6 /* SceneDelegate.swift */; };
-		52590C4C2C19108C00D416F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52590C4B2C19108C00D416F6 /* ViewController.swift */; };
-		52590C4F2C19108C00D416F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52590C4D2C19108C00D416F6 /* Main.storyboard */; };
+		52590C4C2C19108C00D416F6 /* CheckboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52590C4B2C19108C00D416F6 /* CheckboxViewController.swift */; };
 		52590C512C19108E00D416F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52590C502C19108E00D416F6 /* Assets.xcassets */; };
 		52590C542C19108E00D416F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52590C522C19108E00D416F6 /* LaunchScreen.storyboard */; };
-		52590C5F2C19108E00D416F6 /* CheckboxDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52590C5E2C19108E00D416F6 /* CheckboxDemoAppTests.swift */; };
-		52590C692C19108E00D416F6 /* CheckboxDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52590C682C19108E00D416F6 /* CheckboxDemoAppUITests.swift */; };
-		52590C6B2C19108E00D416F6 /* CheckboxDemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52590C6A2C19108E00D416F6 /* CheckboxDemoAppUITestsLaunchTests.swift */; };
+		52590C782C19112D00D416F6 /* CheckboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52590C772C19112D00D416F6 /* CheckboxButton.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		52590C5B2C19108E00D416F6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52590C3C2C19108C00D416F6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52590C432C19108C00D416F6;
-			remoteInfo = CheckboxDemoApp;
-		};
-		52590C652C19108E00D416F6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52590C3C2C19108C00D416F6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52590C432C19108C00D416F6;
-			remoteInfo = CheckboxDemoApp;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		52590C442C19108C00D416F6 /* CheckboxDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckboxDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52590C472C19108C00D416F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52590C492C19108C00D416F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52590C4B2C19108C00D416F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		52590C4E2C19108C00D416F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52590C4B2C19108C00D416F6 /* CheckboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxViewController.swift; sourceTree = "<group>"; };
 		52590C502C19108E00D416F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52590C532C19108E00D416F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52590C552C19108E00D416F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52590C5A2C19108E00D416F6 /* CheckboxDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckboxDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52590C5E2C19108E00D416F6 /* CheckboxDemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxDemoAppTests.swift; sourceTree = "<group>"; };
-		52590C642C19108E00D416F6 /* CheckboxDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckboxDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52590C682C19108E00D416F6 /* CheckboxDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxDemoAppUITests.swift; sourceTree = "<group>"; };
-		52590C6A2C19108E00D416F6 /* CheckboxDemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxDemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52590C772C19112D00D416F6 /* CheckboxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		52590C412C19108C00D416F6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52590C572C19108E00D416F6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52590C612C19108E00D416F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				52590C462C19108C00D416F6 /* CheckboxDemoApp */,
-				52590C5D2C19108E00D416F6 /* CheckboxDemoAppTests */,
-				52590C672C19108E00D416F6 /* CheckboxDemoAppUITests */,
 				52590C452C19108C00D416F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				52590C442C19108C00D416F6 /* CheckboxDemoApp.app */,
-				52590C5A2C19108E00D416F6 /* CheckboxDemoAppTests.xctest */,
-				52590C642C19108E00D416F6 /* CheckboxDemoAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,30 +58,13 @@
 			children = (
 				52590C472C19108C00D416F6 /* AppDelegate.swift */,
 				52590C492C19108C00D416F6 /* SceneDelegate.swift */,
-				52590C4B2C19108C00D416F6 /* ViewController.swift */,
-				52590C4D2C19108C00D416F6 /* Main.storyboard */,
+				52590C4B2C19108C00D416F6 /* CheckboxViewController.swift */,
 				52590C502C19108E00D416F6 /* Assets.xcassets */,
 				52590C522C19108E00D416F6 /* LaunchScreen.storyboard */,
 				52590C552C19108E00D416F6 /* Info.plist */,
+				52590C772C19112D00D416F6 /* CheckboxButton.swift */,
 			);
 			path = CheckboxDemoApp;
-			sourceTree = "<group>";
-		};
-		52590C5D2C19108E00D416F6 /* CheckboxDemoAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				52590C5E2C19108E00D416F6 /* CheckboxDemoAppTests.swift */,
-			);
-			path = CheckboxDemoAppTests;
-			sourceTree = "<group>";
-		};
-		52590C672C19108E00D416F6 /* CheckboxDemoAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				52590C682C19108E00D416F6 /* CheckboxDemoAppUITests.swift */,
-				52590C6A2C19108E00D416F6 /* CheckboxDemoAppUITestsLaunchTests.swift */,
-			);
-			path = CheckboxDemoAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +87,6 @@
 			productReference = 52590C442C19108C00D416F6 /* CheckboxDemoApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		52590C592C19108E00D416F6 /* CheckboxDemoAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52590C712C19108E00D416F6 /* Build configuration list for PBXNativeTarget "CheckboxDemoAppTests" */;
-			buildPhases = (
-				52590C562C19108E00D416F6 /* Sources */,
-				52590C572C19108E00D416F6 /* Frameworks */,
-				52590C582C19108E00D416F6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				52590C5C2C19108E00D416F6 /* PBXTargetDependency */,
-			);
-			name = CheckboxDemoAppTests;
-			productName = CheckboxDemoAppTests;
-			productReference = 52590C5A2C19108E00D416F6 /* CheckboxDemoAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		52590C632C19108E00D416F6 /* CheckboxDemoAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52590C742C19108E00D416F6 /* Build configuration list for PBXNativeTarget "CheckboxDemoAppUITests" */;
-			buildPhases = (
-				52590C602C19108E00D416F6 /* Sources */,
-				52590C612C19108E00D416F6 /* Frameworks */,
-				52590C622C19108E00D416F6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				52590C662C19108E00D416F6 /* PBXTargetDependency */,
-			);
-			name = CheckboxDemoAppUITests;
-			productName = CheckboxDemoAppUITests;
-			productReference = 52590C642C19108E00D416F6 /* CheckboxDemoAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +99,6 @@
 				TargetAttributes = {
 					52590C432C19108C00D416F6 = {
 						CreatedOnToolsVersion = 15.1;
-					};
-					52590C592C19108E00D416F6 = {
-						CreatedOnToolsVersion = 15.1;
-						TestTargetID = 52590C432C19108C00D416F6;
-					};
-					52590C632C19108E00D416F6 = {
-						CreatedOnToolsVersion = 15.1;
-						TestTargetID = 52590C432C19108C00D416F6;
 					};
 				};
 			};
@@ -220,8 +116,6 @@
 			projectRoot = "";
 			targets = (
 				52590C432C19108C00D416F6 /* CheckboxDemoApp */,
-				52590C592C19108E00D416F6 /* CheckboxDemoAppTests */,
-				52590C632C19108E00D416F6 /* CheckboxDemoAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,21 +127,6 @@
 			files = (
 				52590C542C19108E00D416F6 /* LaunchScreen.storyboard in Resources */,
 				52590C512C19108E00D416F6 /* Assets.xcassets in Resources */,
-				52590C4F2C19108C00D416F6 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52590C582C19108E00D416F6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52590C622C19108E00D416F6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,53 +137,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52590C4C2C19108C00D416F6 /* ViewController.swift in Sources */,
+				52590C4C2C19108C00D416F6 /* CheckboxViewController.swift in Sources */,
 				52590C482C19108C00D416F6 /* AppDelegate.swift in Sources */,
+				52590C782C19112D00D416F6 /* CheckboxButton.swift in Sources */,
 				52590C4A2C19108C00D416F6 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52590C562C19108E00D416F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52590C5F2C19108E00D416F6 /* CheckboxDemoAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52590C602C19108E00D416F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52590C6B2C19108E00D416F6 /* CheckboxDemoAppUITestsLaunchTests.swift in Sources */,
-				52590C692C19108E00D416F6 /* CheckboxDemoAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		52590C5C2C19108E00D416F6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52590C432C19108C00D416F6 /* CheckboxDemoApp */;
-			targetProxy = 52590C5B2C19108E00D416F6 /* PBXContainerItemProxy */;
-		};
-		52590C662C19108E00D416F6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52590C432C19108C00D416F6 /* CheckboxDemoApp */;
-			targetProxy = 52590C652C19108E00D416F6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		52590C4D2C19108C00D416F6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52590C4E2C19108C00D416F6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		52590C522C19108E00D416F6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -445,8 +287,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CheckboxDemoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,8 +313,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CheckboxDemoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,78 +326,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		52590C722C19108E00D416F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.programou.CheckboxDemoAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckboxDemoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CheckboxDemoApp";
-			};
-			name = Debug;
-		};
-		52590C732C19108E00D416F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.programou.CheckboxDemoAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckboxDemoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CheckboxDemoApp";
-			};
-			name = Release;
-		};
-		52590C752C19108E00D416F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.programou.CheckboxDemoAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CheckboxDemoApp;
-			};
-			name = Debug;
-		};
-		52590C762C19108E00D416F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.programou.CheckboxDemoAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CheckboxDemoApp;
 			};
 			name = Release;
 		};
@@ -578,24 +346,6 @@
 			buildConfigurations = (
 				52590C6F2C19108E00D416F6 /* Debug */,
 				52590C702C19108E00D416F6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52590C712C19108E00D416F6 /* Build configuration list for PBXNativeTarget "CheckboxDemoAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52590C722C19108E00D416F6 /* Debug */,
-				52590C732C19108E00D416F6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52590C742C19108E00D416F6 /* Build configuration list for PBXNativeTarget "CheckboxDemoAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52590C752C19108E00D416F6 /* Debug */,
-				52590C762C19108E00D416F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
