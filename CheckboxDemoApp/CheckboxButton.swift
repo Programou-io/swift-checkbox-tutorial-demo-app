@@ -9,5 +9,18 @@ import UIKit
 
 final class CheckboxButton: UIButton {
     
-    // Implemente a sua solução aqui
+    private let selectedImage = UIImage(systemName: "checkmark.square.fill")
+    private let unselectedImage = UIImage(systemName: "square")
+    
+    convenience init() {
+        self.init(frame: .zero)
+        tintColor = .red
+        setImage(unselectedImage, for: .normal)
+        setImage(selectedImage, for: .selected)
+        addTarget(self, action: #selector(checkboxDidTouchUpInsideActionHandler), for: .touchUpInside)
+    }
+    
+    @objc private func checkboxDidTouchUpInsideActionHandler(_ button: UIButton) {
+        button.isSelected.toggle()
+    }
 }
