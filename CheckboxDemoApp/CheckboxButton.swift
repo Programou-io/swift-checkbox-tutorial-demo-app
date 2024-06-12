@@ -14,7 +14,6 @@ final class CheckboxButton: UIButton {
     
     convenience init() {
         self.init(frame: .zero)
-        tintColor = .red
         setImage(unselectedImage, for: .normal)
         setImage(selectedImage, for: .selected)
         addTarget(self, action: #selector(checkboxDidTouchUpInsideActionHandler), for: .touchUpInside)
