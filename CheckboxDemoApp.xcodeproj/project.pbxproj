@@ -13,6 +13,7 @@
 		52590C512C19108E00D416F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52590C502C19108E00D416F6 /* Assets.xcassets */; };
 		52590C542C19108E00D416F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52590C522C19108E00D416F6 /* LaunchScreen.storyboard */; };
 		52590C782C19112D00D416F6 /* CheckboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52590C772C19112D00D416F6 /* CheckboxButton.swift */; };
+		52590CDC2C192F6E00D416F6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 52590CDB2C192F6E00D416F6 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		52590C532C19108E00D416F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52590C552C19108E00D416F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52590C772C19112D00D416F6 /* CheckboxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxButton.swift; sourceTree = "<group>"; };
+		52590CDB2C192F6E00D416F6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		52590C3B2C19108C00D416F6 = {
 			isa = PBXGroup;
 			children = (
+				52590CDB2C192F6E00D416F6 /* README.md */,
 				52590C462C19108C00D416F6 /* CheckboxDemoApp */,
 				52590C452C19108C00D416F6 /* Products */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52590CDC2C192F6E00D416F6 /* README.md in Resources */,
 				52590C542C19108E00D416F6 /* LaunchScreen.storyboard in Resources */,
 				52590C512C19108E00D416F6 /* Assets.xcassets in Resources */,
 			);
@@ -286,6 +290,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CheckboxDemoApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Demo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -312,6 +317,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CheckboxDemoApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Demo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
